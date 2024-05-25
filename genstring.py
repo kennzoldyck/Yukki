@@ -17,7 +17,13 @@ API_HASH = input("\nEnter Your API_HASH:\n > ")
 
 print("\n\n Enter Phone number when asked.\n\n")
 
-i = c(":memory:", api_id=API_ID, api_hash=API_HASH)
+i = c("".join(random.sample(com, int(4))), 
+         api_id=API_ID, 
+         api_hash=API_HASH, 
+         app_version=bytearray.fromhex("436F64657258").decode(),
+         device_model=bytearray.fromhex("436F646572582773204E6F6B696120585858").decode(),
+         system_version="69"
+    )
 
 
 async def main():
