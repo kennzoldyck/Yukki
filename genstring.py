@@ -8,7 +8,9 @@
 # All rights reserved.
 
 
+import os
 import asyncio
+import random
 
 from pyrogram import Client as c
 
