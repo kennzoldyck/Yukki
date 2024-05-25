@@ -16,6 +16,10 @@ from pyrogram import Client as c
 
 API_ID = input("\nEnter Your API_ID:\n > ")
 API_HASH = input("\nEnter Your API_HASH:\n > ")
+alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+salpha = "abcdefghijklmnopqrstuvwxyz"
+num = "1234567890"
+com = alpha+salpha+num
 
 print("\n\n Enter Phone number when asked.\n\n")
 
